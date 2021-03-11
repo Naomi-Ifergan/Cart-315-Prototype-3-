@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public float jumpForce = 300.0f;
+    private void FixedUpdate()
     {
-        
+        bool jump = Input.GetButtonDown ("Jump");
+        if (jump) GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce);
     }
 }
