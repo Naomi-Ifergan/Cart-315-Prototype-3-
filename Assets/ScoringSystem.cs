@@ -6,7 +6,7 @@ public class ScoringSystem : MonoBehaviour
 {
 
     public GameObject scoreText;
-    public int theScore;
+    public int theScore = 0;
  
     private void OnTriggerEnter(Collider other)
     {
