@@ -20,14 +20,14 @@ public class TimeControl : MonoBehaviour
         float t = timeLeftSeconds -= Time.deltaTime;
         string minutes = ((int)t / 60).ToString("00");
         string seconds = (t % 60).ToString("00");
-        string milliseconds = ((int)(t * 100f) % 100).ToString("00");
+       // string milliseconds = ((int)(t * 100f) % 100).ToString("00");
 
-        timerText.text = minutes + ":" + milliseconds;
+        timerText.text = minutes + ":" + seconds;
 
         if (timeLeftSeconds <= 0)
         {
             timeLeftSeconds = 0;
-            timerText.text = minutes + ":" + seconds + milliseconds;
+            timerText.text = minutes + ":" + seconds;
             TimesUp = true;
         }
 
