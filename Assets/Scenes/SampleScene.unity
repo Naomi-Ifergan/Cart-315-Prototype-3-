@@ -475,7 +475,6 @@ GameObject:
   - component: {fileID: 127059357}
   - component: {fileID: 127059356}
   - component: {fileID: 127059355}
-  - component: {fileID: 127059354}
   - component: {fileID: 127059353}
   m_Layer: 0
   m_Name: pickup_object 28
@@ -496,20 +495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &127059354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127059352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &127059355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -598,7 +584,6 @@ GameObject:
   - component: {fileID: 134933508}
   - component: {fileID: 134933507}
   - component: {fileID: 134933506}
-  - component: {fileID: 134933505}
   - component: {fileID: 134933504}
   m_Layer: 0
   m_Name: pickup_object 5
@@ -619,20 +604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &134933505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134933503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &134933506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -913,30 +885,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &298702901 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2573877700867721438, guid: a84e11ee423eace4aac65d32b52ee82f, type: 3}
-  m_PrefabInstance: {fileID: 368469004}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &298702906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2573877700867721439, guid: a84e11ee423eace4aac65d32b52ee82f, type: 3}
   m_PrefabInstance: {fileID: 368469004}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &298702907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298702901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
 --- !u!1001 &368469004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1238,7 +1191,6 @@ GameObject:
   - component: {fileID: 424383307}
   - component: {fileID: 424383306}
   - component: {fileID: 424383305}
-  - component: {fileID: 424383304}
   - component: {fileID: 424383303}
   m_Layer: 0
   m_Name: pickup_object 13
@@ -1259,20 +1211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &424383304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424383302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &424383305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1383,7 +1322,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
-  theScore: 0
 --- !u!114 &494083211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,7 +1517,6 @@ GameObject:
   - component: {fileID: 524153866}
   - component: {fileID: 524153865}
   - component: {fileID: 524153864}
-  - component: {fileID: 524153863}
   - component: {fileID: 524153862}
   m_Layer: 0
   m_Name: pickup_object 24
@@ -1600,20 +1537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &524153863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524153861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &524153864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1702,7 +1626,6 @@ GameObject:
   - component: {fileID: 534553107}
   - component: {fileID: 534553106}
   - component: {fileID: 534553105}
-  - component: {fileID: 534553104}
   - component: {fileID: 534553103}
   m_Layer: 0
   m_Name: pickup_object 23
@@ -1723,20 +1646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &534553104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534553102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &534553105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1825,7 +1735,6 @@ GameObject:
   - component: {fileID: 539773441}
   - component: {fileID: 539773440}
   - component: {fileID: 539773439}
-  - component: {fileID: 539773438}
   - component: {fileID: 539773437}
   m_Layer: 0
   m_Name: pickup_object 16
@@ -1846,20 +1755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &539773438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539773436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &539773439
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2138,7 +2034,6 @@ GameObject:
   - component: {fileID: 617016861}
   - component: {fileID: 617016860}
   - component: {fileID: 617016859}
-  - component: {fileID: 617016858}
   - component: {fileID: 617016857}
   m_Layer: 0
   m_Name: pickup_object 18
@@ -2159,20 +2054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &617016858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617016856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &617016859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2648,7 +2530,6 @@ GameObject:
   - component: {fileID: 686958089}
   - component: {fileID: 686958088}
   - component: {fileID: 686958087}
-  - component: {fileID: 686958086}
   - component: {fileID: 686958085}
   m_Layer: 0
   m_Name: pickup_object 9
@@ -2669,20 +2550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &686958086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686958084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &686958087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3082,7 +2950,6 @@ GameObject:
   - component: {fileID: 800814926}
   - component: {fileID: 800814925}
   - component: {fileID: 800814924}
-  - component: {fileID: 800814923}
   - component: {fileID: 800814922}
   m_Layer: 0
   m_Name: pickup_object 17
@@ -3103,20 +2970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &800814923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800814921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &800814924
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3271,7 +3125,6 @@ GameObject:
   - component: {fileID: 880848793}
   - component: {fileID: 880848792}
   - component: {fileID: 880848791}
-  - component: {fileID: 880848790}
   - component: {fileID: 880848789}
   m_Layer: 0
   m_Name: pickup_object 12
@@ -3292,20 +3145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &880848790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880848788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &880848791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3517,7 +3357,6 @@ GameObject:
   - component: {fileID: 1045334799}
   - component: {fileID: 1045334798}
   - component: {fileID: 1045334797}
-  - component: {fileID: 1045334796}
   - component: {fileID: 1045334795}
   m_Layer: 0
   m_Name: pickup_object 11
@@ -3538,20 +3377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1045334796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045334794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1045334797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3984,7 +3810,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
-  theScore: 0
 --- !u!1 &1135982762
 GameObject:
   m_ObjectHideFlags: 0
@@ -3997,7 +3822,6 @@ GameObject:
   - component: {fileID: 1135982767}
   - component: {fileID: 1135982766}
   - component: {fileID: 1135982765}
-  - component: {fileID: 1135982764}
   - component: {fileID: 1135982763}
   m_Layer: 0
   m_Name: pickup_object 30
@@ -4018,20 +3842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1135982764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135982762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1135982765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4120,7 +3931,6 @@ GameObject:
   - component: {fileID: 1145017925}
   - component: {fileID: 1145017924}
   - component: {fileID: 1145017923}
-  - component: {fileID: 1145017922}
   - component: {fileID: 1145017921}
   m_Layer: 0
   m_Name: pickup_object 14
@@ -4141,20 +3951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1145017922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145017920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1145017923
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4243,7 +4040,6 @@ GameObject:
   - component: {fileID: 1174560796}
   - component: {fileID: 1174560795}
   - component: {fileID: 1174560794}
-  - component: {fileID: 1174560798}
   - component: {fileID: 1174560799}
   m_Layer: 0
   m_Name: pickup_object 1
@@ -4328,18 +4124,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1174560798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174560793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1174560799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4353,7 +4137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1130071432}
-  theScore: 0
 --- !u!1 &1205683563
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,7 +4149,6 @@ GameObject:
   - component: {fileID: 1205683568}
   - component: {fileID: 1205683567}
   - component: {fileID: 1205683566}
-  - component: {fileID: 1205683565}
   - component: {fileID: 1205683564}
   m_Layer: 0
   m_Name: pickup_object 19
@@ -4387,20 +4169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1205683565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205683563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1205683566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4774,7 +4543,6 @@ GameObject:
   - component: {fileID: 1317241447}
   - component: {fileID: 1317241446}
   - component: {fileID: 1317241445}
-  - component: {fileID: 1317241444}
   - component: {fileID: 1317241443}
   m_Layer: 0
   m_Name: pickup_object 26
@@ -4795,20 +4563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1317241444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317241442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1317241445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4897,7 +4652,6 @@ GameObject:
   - component: {fileID: 1336596892}
   - component: {fileID: 1336596891}
   - component: {fileID: 1336596890}
-  - component: {fileID: 1336596889}
   - component: {fileID: 1336596888}
   m_Layer: 0
   m_Name: pickup_object 21
@@ -4918,20 +4672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1336596889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1336596887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1336596890
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5231,7 +4972,6 @@ GameObject:
   - component: {fileID: 1412217713}
   - component: {fileID: 1412217712}
   - component: {fileID: 1412217711}
-  - component: {fileID: 1412217710}
   - component: {fileID: 1412217709}
   m_Layer: 0
   m_Name: pickup_object 27
@@ -5252,20 +4992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1412217710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1412217708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1412217711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5623,7 +5350,6 @@ GameObject:
   - component: {fileID: 1531406290}
   - component: {fileID: 1531406289}
   - component: {fileID: 1531406288}
-  - component: {fileID: 1531406287}
   - component: {fileID: 1531406286}
   m_Layer: 0
   m_Name: pickup_object 15
@@ -5644,20 +5370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1531406287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531406285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1531406288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5746,7 +5459,6 @@ GameObject:
   - component: {fileID: 1557271089}
   - component: {fileID: 1557271088}
   - component: {fileID: 1557271087}
-  - component: {fileID: 1557271086}
   - component: {fileID: 1557271085}
   m_Layer: 0
   m_Name: pickup_object 6
@@ -5767,20 +5479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1557271086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557271084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1557271087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5869,7 +5568,6 @@ GameObject:
   - component: {fileID: 1569120249}
   - component: {fileID: 1569120248}
   - component: {fileID: 1569120247}
-  - component: {fileID: 1569120246}
   - component: {fileID: 1569120245}
   m_Layer: 0
   m_Name: pickup_object 22
@@ -5890,20 +5588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1569120246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569120244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1569120247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5992,7 +5677,6 @@ GameObject:
   - component: {fileID: 1594437684}
   - component: {fileID: 1594437683}
   - component: {fileID: 1594437682}
-  - component: {fileID: 1594437681}
   - component: {fileID: 1594437680}
   m_Layer: 0
   m_Name: pickup_object 10
@@ -6013,20 +5697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1594437681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594437679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1594437682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6319,7 +5990,6 @@ GameObject:
   - component: {fileID: 1672003820}
   - component: {fileID: 1672003819}
   - component: {fileID: 1672003818}
-  - component: {fileID: 1672003817}
   - component: {fileID: 1672003816}
   m_Layer: 0
   m_Name: pickup_object 20
@@ -6340,20 +6010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1672003817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672003815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1672003818
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6442,7 +6099,6 @@ GameObject:
   - component: {fileID: 1699190520}
   - component: {fileID: 1699190519}
   - component: {fileID: 1699190518}
-  - component: {fileID: 1699190517}
   - component: {fileID: 1699190516}
   m_Layer: 0
   m_Name: pickup_object 8
@@ -6463,20 +6119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1699190517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699190515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1699190518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6661,7 +6304,6 @@ GameObject:
   - component: {fileID: 1795321672}
   - component: {fileID: 1795321671}
   - component: {fileID: 1795321670}
-  - component: {fileID: 1795321669}
   - component: {fileID: 1795321674}
   m_Layer: 0
   m_Name: pickup_object 3
@@ -6670,18 +6312,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1795321669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795321668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1795321670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6770,8 +6400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
+  scoreText: {fileID: 1130071432}
 --- !u!1 &1865012323
 GameObject:
   m_ObjectHideFlags: 0
@@ -6879,7 +6508,6 @@ GameObject:
   - component: {fileID: 1945972690}
   - component: {fileID: 1945972689}
   - component: {fileID: 1945972688}
-  - component: {fileID: 1945972687}
   - component: {fileID: 1945972686}
   m_Layer: 0
   m_Name: pickup_object 25
@@ -6900,20 +6528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &1945972687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945972685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &1945972688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7206,7 +6821,6 @@ GameObject:
   - component: {fileID: 2080941417}
   - component: {fileID: 2080941416}
   - component: {fileID: 2080941415}
-  - component: {fileID: 2080941414}
   - component: {fileID: 2080941419}
   m_Layer: 0
   m_Name: pickup_object 2
@@ -7215,18 +6829,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2080941414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080941413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2080941415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7315,8 +6917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
+  scoreText: {fileID: 1130071432}
 --- !u!1 &2095200133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7329,7 +6930,6 @@ GameObject:
   - component: {fileID: 2095200138}
   - component: {fileID: 2095200137}
   - component: {fileID: 2095200136}
-  - component: {fileID: 2095200135}
   - component: {fileID: 2095200134}
   m_Layer: 0
   m_Name: pickup_object 4
@@ -7350,20 +6950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &2095200135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095200133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &2095200136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7452,7 +7039,6 @@ GameObject:
   - component: {fileID: 2111917557}
   - component: {fileID: 2111917556}
   - component: {fileID: 2111917555}
-  - component: {fileID: 2111917554}
   - component: {fileID: 2111917553}
   m_Layer: 0
   m_Name: pickup_object 29
@@ -7473,20 +7059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  theScore: 0
---- !u!114 &2111917554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111917552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399ce97d4486f22498d0c554be3290e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1130071432}
 --- !u!65 &2111917555
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -6,13 +6,17 @@ public class ScoringSystem : MonoBehaviour
 {
 
     public GameObject scoreText;
-    public int theScore = 0;
+
+    public static int theScore = 0;
+
  
     private void OnTriggerEnter(Collider other)
     {
-       
-        theScore += 1;
-        scoreText.GetComponent<Text>().text = "score:" + theScore;
-        Destroy(gameObject);
+        if (other.gameObject.tag == "Player") 
+        {
+            theScore += 1;
+            scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "score:" + theScore + "/30";
+            Destroy(gameObject);
+        }
     }
 }
