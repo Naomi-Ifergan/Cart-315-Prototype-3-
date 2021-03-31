@@ -932,10 +932,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 298702901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4d9ee4032905cd48930cf3c98f93f5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 300
+  scoreText: {fileID: 0}
+  theScore: 0
 --- !u!1001 &368469004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3956,7 +3957,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 58.591705, w: 0}
+  m_margin: {x: 0, y: 0, z: -27.813751, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4351,7 +4352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343564ba76007b046bed56cc47f77bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 1130071432}
   theScore: 0
 --- !u!1 &1205683563
 GameObject:
@@ -5041,7 +5042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 1512621247}
   timeLeftSeconds: 240
-  GameName: Cart 315 Prototype 3!
+  GameName: SampleScene
 --- !u!114 &1337410584
 MonoBehaviour:
   m_ObjectHideFlags: 0
