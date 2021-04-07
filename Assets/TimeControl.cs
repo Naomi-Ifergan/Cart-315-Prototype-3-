@@ -8,7 +8,7 @@ public class TimeControl : MonoBehaviour
     public float timeLeftSeconds = 120F;
     public static bool TimesUp = false;
     public string GameName;
-
+    
     void Start()
     {
         TimesUp = false;
@@ -39,5 +39,7 @@ public class TimeControl : MonoBehaviour
     {
         if (TimesUp == true)
             GUI.Box(new Rect(0, 50, 250, 25), "GAME OVER. Press 'p' to play again");
+        
+
     }
 }

@@ -25,8 +25,8 @@ public class ScoringSystem : MonoBehaviour
         if (other.gameObject.tag == "Player") 
         {
             theScore += 1;
+            coinSource.Play();
             scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "score:" + theScore + "/30";
-            coinSource.Play ();
             Destroy(gameObject);
         }
     }
