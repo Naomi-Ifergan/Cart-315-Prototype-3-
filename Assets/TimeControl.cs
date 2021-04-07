@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class TimeControl : MonoBehaviour
 {
     public Text timerText;
-    public float timeLeftSeconds = 240F;
+    public float timeLeftSeconds = 120F;
     public static bool TimesUp = false;
     public string GameName;
 
@@ -22,7 +22,7 @@ public class TimeControl : MonoBehaviour
         string seconds = (t % 60).ToString("00");
        // string milliseconds = ((int)(t * 100f) % 100).ToString("00");
 
-        timerText.text = minutes + ":" + seconds;
+        timerText.text = "Timer: " + minutes + ":" + seconds;
 
         if (timeLeftSeconds <= 0)
         {
