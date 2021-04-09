@@ -12,6 +12,7 @@ public class ScoringSystem : MonoBehaviour
 
   void Start()
     {
+       
         coinSource = GetComponent<AudioSource>();
     }
 
@@ -28,6 +29,8 @@ public class ScoringSystem : MonoBehaviour
             coinSource.Play();
             scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "score:" + theScore + "/30";
             Destroy(gameObject);
+            
         }
+        
     }
 }
