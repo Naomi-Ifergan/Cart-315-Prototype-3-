@@ -582,12 +582,12 @@ GameObject:
   - component: {fileID: 573522782}
   - component: {fileID: 573522783}
   m_Layer: 5
-  m_Name: INSTRUCTION Menu (OPTION)
+  m_Name: INSTRUCTION page (OPTION)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &573522782
 RectTransform:
   m_ObjectHideFlags: 0
@@ -602,12 +602,12 @@ RectTransform:
   - {fileID: 1020842697}
   - {fileID: 1155795992}
   - {fileID: 89082467}
-  m_Father: {fileID: 1826650597}
+  m_Father: {fileID: 1175719093}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1, y: 76}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573522783
@@ -622,6 +622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cfcdb16414f2844ab7d36451a2fe0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  instructions: {fileID: 573522781}
+  mainScreen: {fileID: 2056602814}
 --- !u!1 &863249109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,6 +1033,7 @@ GameObject:
   - component: {fileID: 1175719096}
   - component: {fileID: 1175719095}
   - component: {fileID: 1175719094}
+  - component: {fileID: 1175719097}
   m_Layer: 5
   m_Name: Instructions Button (OPTIONS)
   m_TagString: Untagged
@@ -1050,6 +1053,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1572937333}
+  - {fileID: 573522782}
   m_Father: {fileID: 2056602815}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1164,6 +1168,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175719092}
   m_CullTransparentMesh: 1
+--- !u!114 &1175719097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175719092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cfcdb16414f2844ab7d36451a2fe0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instructions: {fileID: 573522781}
+  mainScreen: {fileID: 2056602814}
 --- !u!1 &1197170671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,7 +1958,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 540967001}
-  - {fileID: 573522782}
   - {fileID: 2056602815}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1982,7 +1999,7 @@ RectTransform:
   - {fileID: 1175719093}
   - {fileID: 996291042}
   m_Father: {fileID: 1826650597}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2001,3 +2018,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cfcdb16414f2844ab7d36451a2fe0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  instructions: {fileID: 573522781}
+  mainScreen: {fileID: 2056602814}
