@@ -6,14 +6,13 @@ public class ScoringSystem : MonoBehaviour
 {
 
     public GameObject scoreText;
-    public AudioSource coinSource;
     public static int theScore = 0;
 
 
   void Start()
     {
        
-        coinSource = GetComponent<AudioSource>();
+      
     }
 
      void Update()
@@ -26,11 +25,15 @@ public class ScoringSystem : MonoBehaviour
         if (other.gameObject.tag == "Player") 
         {
             theScore += 1;
-            coinSource.Play();
             scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "score:" + theScore + "/30";
             Destroy(gameObject);
             
         }
         
+    }
+    public void ResetScore()
+    {
+        theScore = 0;
+        PlayerPrefs.SetInt("", theScore);
     }
 }

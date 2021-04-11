@@ -845,7 +845,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -19, y: -19}
-  m_SizeDelta: {x: 700, y: 300}
+  m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1020842698
 MonoBehaviour:
@@ -946,7 +946,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -105}
-  m_SizeDelta: {x: 600, y: 400}
+  m_SizeDelta: {x: 700, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1155795993
 MonoBehaviour:
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_Text: "INSTRUCTIONS:\n\n* Use spacebar to jump\n* Use key arrows/WASD to move\n*
     Jump from one platform to another \n   to collect the purple cubes (30 in total).\n*
     Hold the left button on your mouse to rotate the camera \n  (beware when using
-    it, it may cause difficulties when playing the game)."
+    it as it may cause difficulties when playing the game)."
 --- !u!222 &1155795994
 CanvasRenderer:
   m_ObjectHideFlags: 0
