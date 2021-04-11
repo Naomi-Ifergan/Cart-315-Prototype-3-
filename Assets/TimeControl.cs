@@ -38,7 +38,7 @@ public class TimeControl : MonoBehaviour
     private void OnGUI()
     {
         if (TimesUp == true)
-            GUI.Box(new Rect(0, 50, 250, 25), "GAME OVER. Press 'p' to play again");
+            GUI.Box(new Rect(450, 150, 400, 50), "GAME OVER. Press 'p' to play again!");
 
 
     }
