@@ -851,7 +851,8 @@ MonoBehaviour:
   m_Text: "INSTRUCTIONS:\n\n* Use spacebar to jump\n* Use key arrows/WASD to move\n*
     Jump from one platform to another \n   to collect the purple cubes (30 in total).\n*
     Hold the left button on your mouse to rotate the camera \n  (beware when using
-    it as it may cause difficulties when playing the game)."
+    it as it may cause difficulties when playing the game).\n\nHint: Use the shadows
+    to your advantage."
 --- !u!222 &1155795994
 CanvasRenderer:
   m_ObjectHideFlags: 0
