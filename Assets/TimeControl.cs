@@ -32,8 +32,11 @@ public class TimeControl : MonoBehaviour
         }
 
         if (TimesUp == true && Input.GetKeyDown("p"))
-            SceneManager.LoadScene(GameName, LoadSceneMode.Single);
+        {
+            ScoringSystem.theScore = 0;
 
+            SceneManager.LoadScene(GameName, LoadSceneMode.Single);
+        }
     }
     private void OnGUI()
     {
