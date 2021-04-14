@@ -812,7 +812,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -105}
+  m_AnchoredPosition: {x: 0, y: -96}
   m_SizeDelta: {x: 700, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1155795993
@@ -851,8 +851,8 @@ MonoBehaviour:
   m_Text: "INSTRUCTIONS:\n\n* Use spacebar to jump\n* Use key arrows/WASD to move\n*
     Jump from one platform to another \n   to collect the purple cubes (30 in total).\n*
     Hold the left button on your mouse to rotate the camera \n  (beware when using
-    it as it may cause difficulties when playing the game).\n\nHint: Use the shadows
-    to your advantage."
+    it as it may cause difficulties when playing the game).\n* You have 2 minutes
+    to complete the game.\n\nHint: Use the shadows to your advantage."
 --- !u!222 &1155795994
 CanvasRenderer:
   m_ObjectHideFlags: 0
